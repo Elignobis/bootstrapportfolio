@@ -8,6 +8,7 @@ btn {
 .rngb {
     background-color: transparent;
     margin-right: 20px;
+    color: black;
 }
 
 .rngb:hover {
@@ -21,5 +22,9 @@ btn {
 }
 
 a {
-    color: blue;
+    color: black;
+}
+
+.text-center {
+    margin-top: 25px;
 }

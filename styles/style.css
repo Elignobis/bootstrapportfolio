@@ -1,0 +1,21 @@
+.rng {
+    color: rgb(38,22,22);
+}
+btn {
+    margin-right: 10px;
+}
+
+.rngb {
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.rngb:hover {
+    background-color: rgb(38,22,22);
+    border: none;
+}
+
+
+.bg {
+    background-color: rgb(183, 183, 181);
+}

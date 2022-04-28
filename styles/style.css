@@ -19,3 +19,7 @@ btn {
 .bg {
     background-color: rgb(183, 183, 181);
 }
+
+a {
+    color: blue;
+}

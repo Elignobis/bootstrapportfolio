@@ -11,10 +11,6 @@ body {
   color: #261616;
 }
 
-btn {
-  margin-right: 10px;
-}
-
 .rngb {
   background-color: transparent;
   margin-right: 20px;
@@ -266,6 +262,8 @@ h1 span:nth-child(11) {
   aspect-ratio: 1;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: 10px 15px;
+     object-position: 10px 15px;
   border-radius: 50%;
 }
 
@@ -274,5 +272,29 @@ h1 span:nth-child(11) {
   aspect-ratio: 1 !important;
   height: auto !important;
   border-radius: 50% !important;
+}
+
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects-container img {
+  max-height: 300px;
+  max-width: 100%;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#testimonials {
+  background-color: #686C97;
 }
 /*# sourceMappingURL=style.css.map */
